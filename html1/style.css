@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* .products {
+  width: 65%;
+  height: 400px;
+  max-width: 500px;
+  background-color: teal;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.products .product {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+} */
+
+/* .box {
+  height: 70px;
+  background-color: red;
+} */
+/* -------------box ending */
+
+/* todo products schedule */
+
+/* .products {
+  background-color: teal;
+  margin: 0 auto;
+  padding: 20px;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  --product-per-row: 4;
+  --product-gap: 10px;
+  gap: var(--product-gap);
+} */
+
+/* .products .product { */
+/* height: 200px; */
+/* width: calc((100% - (var(--product-per-row) - 1) * var(--product-gap)) / var(--product-per-row)); */
+/* border-radius: 50px; */
+/* width: calc(100% / var(--product-per-row) - (var(--product-gap) - var(--product-gap) / var(--product-per-row))); */
+/* text-align: center; */
+/* } */
+
+/* .product .product_image{
+  width: 100%;
+  height: 150px;
+}
+.product_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product .product_text{
+  background-color: #fff;
+}
+
+h1[id="product"]{
+  color: blue;
+  width: 75%;
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+} */
+/* !products ending */
+
+/* ul li:nth-of-type(-n+3){
+  color:red;
+} */
+/* todo Aside Start
+aside{
+  width: 200px;
+  background-color: orangered;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  position: fixed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition: 0.4s;
+}
+input{
+  display: none;
+}
+input:checked +label+aside{
+  left: 0;
+}
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+label{
+  cursor: pointer;
+}
+
+aside ul {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 30px;
+} */
+/* !Aside END */
+/*todo Counter-set with css
+ body{
+  counter-set: bookCount;
+}
+main{
+  margin: 50px auto;
+  width: 800px;
+  height: 400px;
+  background-color: rgba(128, 81, 0, 0.533);
+  border-radius: 10px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.books{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap: 20px;
+}
+
+.books label {
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  color: bisque;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.books label:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: wheat;
+}
+input{
+  visibility: hidden;
+}
+input + label {
+  user-select: none;
+}
+input:checked{
+  counter-increment: bookCount;
+}
+.counter::after{
+  content: counter(bookCount);
+} */
+
